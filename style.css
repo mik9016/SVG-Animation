@@ -1,0 +1,17 @@
+
+@keyframes round{
+    from {transform:rotateZ(0deg) translateX(-40px)}
+    to {transform: rotate(360deg) translateX(-40px) }
+  }
+  #Plain{
+   position: absolute;
+   transform-origin: 40% 40%; 
+  
+    animation: round 4s linear infinite;  
+  }
+  svg {
+    position: relative;
+    width: 600px;
+    height: 300px;
+  
+  }
